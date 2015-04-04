@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Ques6
+</title>
+</head>
+<body>
+<form method="get" target="_self" onsubmit="return validate()">
+Name:<input type="text" id="text1"><br/>
+Age:<input type="text" id="text2">
+
+<input type="submit" value="Submit" onsubmit="validate();">
+</form>
+<script language="JavaScript">
+function validate()
+{
+
+if(document.getElementById("text1").value=="" || document.getElementById("text2").value<18 )
+{
+document.alert("Form not submitted");
+return false;
+}
+else
+{
+document.alert("Form submitted"); 
+return true;
+}
+}
+</script>
+</body>
+</html>

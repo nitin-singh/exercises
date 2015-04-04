@@ -1,0 +1,18 @@
+<html>
+<head>
+<title></title>
+<script language="javascript">
+function changecontent(id,html)
+{
+document.getElementById(id).value=html;
+
+}
+</script>
+
+</head>
+<body>
+<input type="text" id="t1" value="initial text">
+<input type="button" id="b1" name="Click" value="Click" onclick='return changecontent("t1","Content Has been Replaced");'>
+
+</body>
+</html>

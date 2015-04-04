@@ -1,0 +1,18 @@
+<html>
+<head>
+<script language="javascript">
+str=prompt("Enter String");
+flag=0;
+document.write("STring lngth="+str.length);
+for(i=0;i<=(str.length-1)/2;i++)
+{document.write("<br>"+str[i]+" <-> "+str.charAt(str.length-1-i));
+
+}
+</script>
+</head>
+<body>
+
+
+</body>
+
+</html>

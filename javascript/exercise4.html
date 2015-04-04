@@ -1,0 +1,28 @@
+<html>
+<head>
+<title></title>
+<script language="javascript">
+function updateTime()
+{d=new Date();
+document.getElementById("t1").value=d.toUTCString();
+}
+
+function st()
+{
+ref=setInterval("updateTime()",1000);}
+
+function sp()
+{
+stopInterval(ref);
+}
+</script>
+
+</head>
+<body>
+<input type="text" id="t1" value="time">
+<input type="button" id="b1"  value="Start" onclick="st();">
+<input type="button" id="b2" value="End" onclick="sp();">
+
+
+</body>
+</html>

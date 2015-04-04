@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+function ask()
+{
+name=prompt("Enter your name: ");
+document.getElementById("text1").value=name;
+}
+
+</script>
+
+</head>
+<body>
+
+Press Button: <input type="button" value="Ask" id="B1" onclick="return ask();">
+Your Name :<input type="text" id="text1">
+
+</body>
+</html>

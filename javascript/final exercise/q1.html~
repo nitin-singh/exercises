@@ -1,0 +1,16 @@
+<html>
+<head>
+<script language="javascript">
+amount=prompt("Enter amount");
+rate=prompt("Enter interest rate");
+years=prompt("Enter years");
+document.write("Simple Interest =",amount*rate*years/100);
+
+</script>
+</head>
+<body>
+
+
+</body>
+
+</html>

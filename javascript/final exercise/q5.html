@@ -1,0 +1,22 @@
+<html>
+<head>
+
+<script language="javascript">
+function callme()
+{
+old=document.getElementById("t1").value;
+document.getElementById("t2").value=""+old;
+
+return false;}
+
+</script>
+</head>
+
+<body>
+TEXTBOX 1: <input type="text" id="t1" onChange="return callme();">
+<br>TEXTBOX 2:<input type="text" id="t2" >
+
+
+</body>
+
+</html>
