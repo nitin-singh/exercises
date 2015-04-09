@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.http
+{
+   color: green;
+    background: pink;
+}
+</style>
+<script src="jquery.js">
+</script>
+<script>
+$(document).ready(function()
+  {
+  $('a[href*="http"]').addClass("http");
+   });
+</script>
+</head>
+<body>
+<a href="http://www.google.com/policy.pdf">Policy</a>
+<a href="www.yahoo.com/logo.png" title="yahoo logo">View Logo</a>
+<a href="http://www/facebook.com" title="Facebook">Facebook</a>
+</body>
+</html>

@@ -1,0 +1,18 @@
+﻿jQuery Exercises
+
+1. <a href='http://www.google.com/policy.pdf'>Policy</a>
+<a href='www.yahoo.com/logo.png' title='yahoo logo'>View Logo</a>
+<a href='http://www.facebook.com' title='Facebook'>Facebook</a>
+
+Select all anchor tags that link to a pdf document.
+Select all anchor tags that start with http
+Select all anchor tags that have title attribute
+
+2. Create an anchor tag using jQuery and add href attribute and assign it a value http://www.google.com
+
+3. Create a simple button and one(or two?) paragraph with text “Hi”. Once the button is clicked, the paragraph text should change to “Hello”. If button is clicked once again, the paragraph text should again change to “Hi”. This process must repeat on subsequent clicks. 
+
+4. Create toggle buttons, i.e there should be div's which has a class of "toggle-button", bind a click event on it and whenever the button is clicked, classes "on" and "off" should toggle(if class is 'on' change it to 'off' and vice-versa) changing the background-color of that clicked DIV.
+
+5. Create a simple animation of a DIV (update left property) which starts on click event of a button, the button also resets the animation when clicked again.
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.js"></script>
+<script>
+ $(document).ready(function(){
+            flag =1;
+            $("#b1").click(function(){
+                if(flag==1) {
+                    $("div").animate({left: '300px'});
+                    flag = 0;
+                }
+                else{
+                    $("div").animate({left: '10px'});
+                    flag = 1;
+                }
+
+            });
+        });
+</script>
+</head>
+<body>
+<button id="b1">Click to see animation</button>
+<div id="box" style="background:Blue;height:100px;width:100px;margin:6px;position:absolute;"></div>
+</body>
+</html>

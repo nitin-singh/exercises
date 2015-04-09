@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head> 
+  <style>
+  p {
+    margin: 10px;
+    font-size: large;
+    cursor: pointer;
+  }
+  .blue {
+    color: blue;
+  }
+  .toggle-button {
+    background: yellow;
+  }
+  </style>
+  <script src="jquery.js"></script>
+</head>
+<body>
+ <div >
+<p class="blue">
+Division<br>
+Click to change color
+</p>
+</div>
+
+
+<script>
+$( "div" ).click(function() {
+ $(this).toggleClass("toggle-button");
+});
+</script>
+</body>
+</html>
+
